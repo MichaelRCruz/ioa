@@ -1,6 +1,6 @@
 *under construction
 
-# potato (beta)
+# ioa (beta)
 
 > "Be excellent to each other." ~ Bill S. Preston, Esq.
 
@@ -11,12 +11,12 @@ A simple chat app for a small group that can cherry-pick APIs and services and t
 > dev priorities (sorted; !exhaustive)
 * data security and identity protection, (user permissions, tos, etc.)
 * regulations & ethics
-* client solution (basic understanding of user space and environment)
-* industry best practices (declaritive, top-down data flow, idempotent operations)
+* solution (basic understanding of user space and environment)
+* best practices (declaritive, top-down data flow, idempotent operations)
 
 ## 2: state - context & auth
 
-Consider a stripped down representation of two functions that live inside Potato's top-level context. Potato values a fully isolated authentication process which creates a redeemable session available when revisiting the site.
+Consider a stripped down representation of two functions that live inside ioa's top-level context. ioa values a fully isolated authentication process which creates a redeemable session available when revisiting the site.
 
 `onAuthStateChanged()` is a special listener inside the app's highest level context provider. It's tasked for handling all changes to the listener's callback, `user` - the auth state object which responds to a set of well-defined and comprehensive auth state changes, e.g., user chooses to identify with Google or identify with GitHub.
 
@@ -72,17 +72,17 @@ There is some complexity that can be removed here, but the context's state redun
 
 The most frequently consumed resource is a message which are created via the standard .map() technique in any functional or class component.
 
->This is _potentially_ the most brittle part of the application, but also where Potato gets it's strength where it will [juice it or loose it](https://github.com/grapefrukt/juicy-breakout).
+>This is _potentially_ the most brittle part of the application, but also where ioa gets it's strength where it will [juice it or loose it](https://github.com/grapefrukt/juicy-breakout).
 
 So far, limited precautions have been made to handle three distinct concepts regarding state: state, null, error. The list of these three "situations", for lack of a better word, are exhaustive and every component (and function if possible) must meet that criteria.
 
 ## 0: null
 
-> Immediately I'd like to point out that the naming convention of Potato's context was poorly chosen by yours truly. Realistically speaking, I couldn't have chosen a worse name for the main context which brings me to my first observational claim.
-**Potato's authentication state should remain completely out of any other state's lifecycle exclusively due to the fact that it is not "spawned" from that lifecycle process and only dude to that fact.**
-If not, then somewhere in the n + 1 future your collection of enclosed lifecycle events (read "react app") will begin behaving in ways that are difficult to understand.
+> Immediately I'd like to point out that the naming convention of ioa's context was poorly chosen by yours truly. Realistically speaking, I couldn't have chosen a worse name for the main context which brings me to my first observational claim.
 
-This was very alien to me at first, but then I noticed that this makes more room for juice. If we can allow the insertion of any list of JSX elements immediately when the component renders, then that gives you way more flexibility in keeping the user occupied as the client beautifully displays some loading animation or "prerendered?" state for example. I've tested these ideas using faker.js for easy data.
+**ioa's authentication state should remain completely out of any other state's lifecycle exclusively due to the fact that it is not "spawned" from that lifecycle process and only dude to that fact.**
+
+If not, then somewhere in the n + 1 future your collection of enclosed lifecycle events (read "react app") will begin behaving in ways that are difficult to understand.
 
 Have vision.
 Have code.

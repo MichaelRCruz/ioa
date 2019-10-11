@@ -93,10 +93,10 @@ exports.createRoomsAndUserConfig = functions.https.onRequest((req, res) => {
       admins: { [uid]: displayName }
     };
     const message = {
-      content: 'Welcome to Potato!',
+      content: 'Welcome to ioa!',
       creator: {
         displayName: 'mykey',
-        email: 'potato@michaelcruz.io',
+        email: 'michael@michaelcruz.io',
         photoURL: 'https://lh3.googleusercontent.com/-42Rxl6komNU/AAAAAAAAAAI/AAAAAAAAAJ0/n2btuWyx90o/photo.jpg',
         uid: 'wWV3cvFFK5g4Ok0MlYQXynnI9xZ2'
       },
@@ -196,7 +196,6 @@ exports.sendMessageToUsers = functions.https.onRequest((req, res) => {
 exports.getMessages = functions.https.onRequest((req, res) => {
   return cors(req, res, async () => {
     const { roomId, messageCount } = JSON.parse(req.body);
-    console.log(roomId, messageCount, 'asnclksmdlkc');
     const messagesRef = await admin.database().ref(`messages`);
     await messagesRef
       .orderByChild('roomId')

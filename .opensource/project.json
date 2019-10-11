@@ -1,27 +1,16 @@
 {
     "name": "ioa",
-  
-    // Platforms this repository supports. 
-    // Options are Android, iOS, Web, and Games.
     "platforms": [
       "Web"
     ],
-
     "content": "README.md",
-
-    // Non-README markdown pages to render
     "pages" : [
         "OVERVIEW.md"
     ],
-  
-    // Related projects on Github, in the format $owner/$repo
-    // Ex: "firebase/firebaseui-ios"
     "related": [
         "FirebaseExtended/reactfire"
     ],
-
-    // (optional) Links to external resources
     "tabs": [
       "ioa.chat"
     ]
-  }
+}

@@ -2,7 +2,7 @@
   "name": "potato",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wiscosauce.web.com/",
+  "homepage": "https://ioa.chat/",
   "dependencies": {
     "bad-words": "^3.0.2",
     "faker": "^4.1.0",

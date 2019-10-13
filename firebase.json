@@ -5,26 +5,28 @@
   "storage": {
     "rules": "storage.rules"
   },
-  "hosting": {
-    "target": "wiscosauce",
-    "public": "build",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "appAssociation": "AUTO",
-    "rewrites": [
-      {
-        "source": "/",
-        "dynamicLinks": true
-      },
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  },
+  "hosting": [
+    {
+      "target": "raynes",
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "appAssociation": "AUTO",
+      "rewrites": [
+        {
+          "source": "/",
+          "dynamicLinks": true
+        },
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ],
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"

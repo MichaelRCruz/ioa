@@ -50,3 +50,5 @@ Best Practices: declaritive, top-down, data flow, idempotent operation.
 Explore: contentID.
 
 ## **[. . . to be continued](https://youtu.be/61m7GBMp1I8) 😍**
+
+https://developer.chrome.com/extensions/signedInDevices

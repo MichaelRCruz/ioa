@@ -1,4 +1,4 @@
-// sketches of ds and algorithims
+// sketches of ds-algo
 
 class Node {
   constructor(element) {

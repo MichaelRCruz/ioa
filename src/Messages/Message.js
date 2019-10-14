@@ -43,16 +43,4 @@ class Message extends Component {
   }
 }
 
-// Message.defaultProps = {
-//   "content" : "Wait, what is the symptom?",
-//   "creator" : {
-//     "displayName" : "mykey",
-//     "email" : "michael@michaelcruz.io",
-//     "photoURL" : "https://lh3.googleusercontent.com/-42Rxl6komNU/AAAAAAAAAAI/AAAAAAAAAJ0/n2btuWyx90o/photo.jpg",
-//     "uid" : "buaySW4zINZ4cWsdykHgmyYqWDy2"
-//   },
-//   "roomId" : "-Ld7mZCDqAEcMSGxJt-x",
-//   "sentAt" : 1558661960574
-// };
-
 export default Message;

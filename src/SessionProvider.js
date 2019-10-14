@@ -160,6 +160,8 @@ class SessionProvider extends React.Component {
   usersRef = firebase.database().ref(`users`);
   onlineUsersRef = firebase.database().ref(`users`);
   messagesRef = firebase.database().ref(`messages`);
+  // it's strange to see firebase inside state
+  // which is why I'm taking it out soon :)
   state = {
     firebase: firebase,
     activeRoom: {},

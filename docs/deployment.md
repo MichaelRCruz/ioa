@@ -1,10 +1,9 @@
-# ioa | *docs/hosting/quickstart
+# #* wut
+https://firebase.google.com/docs/hosting/quickstart
 
 ![whoa](./assets/bill-and-teds-father-time.png)
 
-https://firebase.google.com/docs/hosting/quickstart
-
-## wut ❤️ | ioa deploy
+## #* deploy
 
 Learn to deploy an application from a repository with the [Firebase CLI](https://firebase.google.com/docs/cli).
 
@@ -64,13 +63,13 @@ $ git clone git@github.com:MichaelRCruz/ioa.git && cd ioa
 
 5. Again, click next, but this time copy the CLI command to your clip board for convenience, move to the next step, then click "Continue to Console." to finish.
 
-#wut ❤️ | Make sure to have the CLI installed for the next section by pasting to the terminal or by using the command below.
+#* wut | Make sure to have the CLI installed for the next section by pasting to the terminal or by using the command below. 
 
 ```terminal
 $ npm install -g firebase-tools
 ```
 
-️#wut ❤️ | Update your CLI liberally.
+️#* wut | Update your CLI liberally.
 
 For any CLI, when they're new or just out of beta, the updates are more frequent and have more of an impact compared to later updates across the tool's lifetime. There will be a time, when you're pulling your hair out, but forgot to update the CLI. I promise, maybe probably.
 
@@ -78,11 +77,11 @@ Firebase projects are basically Google Cloud Platform (GCP) projects. A project 
 
 For example, you have an Android app, two web apps, and a iOS app. Try to develop these under _one_ project ID.
 
-#wut ❤️ | The project name you chose at the start is _usually_ your project throughout GCP.
+#* wut | The project name you chose at the start is _usually_ your project throughout GCP.
 
 For programmers, please remember best practices expecially regarding naming conventions. You'll find that a consistant naming pattern will save you time and energy when reasoning your way through other surfaces of your system within Firebase and GCP. 
 
-#wut ❤️ | Remember, this is a much larger universe with way more stuff racing through orbit. I'll share some advice from a friend, "You can nuke it out of orbit but I don't suggest relying on that."
+#* wut | Remember, this is a much larger universe with way more stuff racing through orbit. I'll share some advice from a friend, "You can nuke it out of orbit but I don't suggest relying on that."
 
 ## How to utilize Firebase CLI?
 
@@ -90,21 +89,19 @@ A more sophisticated project that includes additional Firebase features, will ha
 
 Set up your CLI by running the following, but be sure you're using the right project and are also authenticated.
 
-#wut ❤️ | The terminal will redirect you, but address the quick privacy question and you'll be on your way.
+The terminal will redirect you, but address the quick privacy question and you'll be on your way.
 
 ```terminal
 $ firebase login
 $ firebase use ioa
 ```
 
-INSERT VIDEO
-
 0. If you've installed the Firebase CLI or made sure it is updated with `npm install -g firebase-tools`, then proceed.
 1. Verify that you're logged in with `firebase login`.
 2. Configure Firebase for your project via the CLI by running `firebase init`.
 3. Select your options and be sure to define the correct build foldername as "build". Select `yes` for setting up rewrites, and for those working with the ioa clone, select `no` when asked if you would like to overwrite your existing `index.html`.
 
-#wut ❤️ | Remember `ctrl+c` will abort if needed.
+#* wut | Remember `ctrl+c` will abort if needed.
 
 ## How to write a firebase.json file for React?
 
@@ -132,7 +129,7 @@ INSERT VIDEO
 }
 ```
 
-#wut ❤️ | Research the neat stuff manifest.json can do!
+#* wut | Research the neat stuff manifest.json can do!
 
 ## How to serve Firebase locally?
 
@@ -150,4 +147,4 @@ INSERT VIDEO
 
 The duplication of `ioa` in the above step is intentional. One represents the binding url and the other represents the app nickname.
 
-#wut ❤️ | [...to be continued.](https://wut.app)
+#* wut | [...to be continued.](https://wut.app)

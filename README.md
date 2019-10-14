@@ -12,8 +12,6 @@ This project began as an exploration into the features made avilable in React st
 
 ## **installation**
 
-👉 [init & deployment](https://github.com/MichaelRCruz/fwbp)
-
 ❤️ don't forget to update your [cli](https://firebase.google.com/docs/cli).
 
 This should get you started.
@@ -31,18 +29,24 @@ $ npm run start
 ## **hosting**
 
 
-|         | site                         | binding                                                    |
+|         | site                         | binding (fun names encouraged here)                                                    |
 | ------- | ---------------------------- | ---------------------------------------------------------- |
-| preprod | [ioa.is](https://ioa.is)     | [infiniteloop.web.app](https://infiniteloop.web.app)       |
-| prod    | [ioa.chat](https://ioa.chat) | [raynes.web.app](https://raynes.web.app)                   |
-| docs     | [ioa.fyi](https://ioa.fyi)   | [java-script.web.app](https://java-script.web.app)         |
-| devs     | [ioa.dev](https://ioa.dev)   | [searchcomputer.web.app](https://searchcomputer.web.app)   |
-| test    | [gcp.is](https://gcp.is)     | [litterature.web.app](https://litterature.web.app)         |
+| preproduction | [ioa.is](https://ioa.is)     | [infiniteloop.web.app](https://infiniteloop.web.app)       |
+| production    | [ioa.chat](https://ioa.chat) | [raynes.web.app](https://raynes.web.app)                   |
+| documentation     | [ioa.fyi](https://ioa.fyi)   | [java-script.web.app](https://java-script.web.app)         |
+| development     | [ioa.dev](https://ioa.dev)   | [searchcomputer.web.app](https://searchcomputer.web.app)   |
+| testing    | [gcp.is](https://gcp.is)     | [litterature.web.app](https://litterature.web.app)         |
 
 ## **dev priorities (sorted, !exhaustive)**
-* data security and identity protection, (user permissions, tos, etc.)
-* regulations & ethics
-* solution (basic understanding of user space and environment)
-* best practices (declaritive, top-down data flow, idempotent operations)
+
+Identity Protections: user permissions, tos, etc.
+
+Regulations & Ethics
+
+Solutions (know space & environment)
+
+Best Practices: declaritive, top-down, data flow, idempotent operation.
+
+Explore: contentID.
 
 ## **[. . . to be continued](https://youtu.be/61m7GBMp1I8) 😍**

@@ -1,8 +1,8 @@
 # **ioa | abstract**
 
-> "If you guys are really us, then what number are we thinking of?" ~ Ted Theodore Logan
+![whoa](./assets/bill-and-teds-so-crates.png)
 
-![whoa](./assets/69dudeswhoa.png)
+> "So-Crates. The only true wisdom consists in knowing that you know nothing." ~ Bill S. Preston Esquire.
 
 A particular interest was taken with ioa's authentication system whereby a common list of user configurations serves as the source of truth for any user intent. Since ioa's design allows the user to select several [auth](https://firebase.google.com/docs/auth) providers associated with their account, the thought was to utilize any tokens or keys made avaiable by each of those potential auth choices to the user's advantage.
 

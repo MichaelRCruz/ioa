@@ -1,8 +1,8 @@
 # ioa | *docs/hosting/quickstart
 
-https://firebase.google.com/docs/hosting/quickstart
+![whoa](./assets/bill-and-teds-father-time.png)
 
-IMAGE
+https://firebase.google.com/docs/hosting/quickstart
 
 ## wut ❤️ | ioa deploy
 
@@ -108,7 +108,7 @@ INSERT VIDEO
 
 ## How to write a firebase.json file for React?
 
-0. If you've navigated to your manifest.json file in your text editor to verify it is well-formed, then proceed.
+0. If you've navigated to your manifest.json file in your text editor to verify that it's well-formed, then proceed.
 1. Make sure `public` is set to the same value as the name of your build folder, "build".
 2. Make sure `target` has been named appropriately.
 3. Make sure your `manifest.json` file looks like this.

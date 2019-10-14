@@ -5,17 +5,30 @@
     ],
     "content": "README.md",
     "pages" : {
+      "docs/ioa.md": "ioa",
       "docs/overview.md": "overview",
-      "docs/faq.md": "faq",
-      "docs/deployment.md": "deployment"
+      "docs/deployment.md": "deployment",
+      "docs/abstract.md": "abstract"
     },
     "related": [
       "FirebaseExtended/reactfire"
     ],
     "tabs": [
       {
-        "title": "prod",
+        "title": "production",
         "href": "https://ioa.chat"
+      },
+      {
+        "title": "preproduction",
+        "href": "https://ioa.is"
+      },
+      {
+        "title": "testing",
+        "href": "https://ioa.is"
+      },
+      {
+        "title": "development",
+        "href": "https://ioa.dev"
       }
     ]
 }

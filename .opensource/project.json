@@ -4,13 +4,18 @@
       "Web"
     ],
     "content": "README.md",
-    "pages" : [
-        "OVERVIEW.md"
-    ],
+    "pages" : {
+      "docs/overview.md": "overview",
+      "docs/faq.md": "faq",
+      "docs/deployment.md": "deployment"
+    },
     "related": [
-        "FirebaseExtended/reactfire"
+      "FirebaseExtended/reactfire"
     ],
     "tabs": [
-      "ioa.chat"
+      {
+        "title": "prod",
+        "href": "https://ioa.chat"
+      }
     ]
 }

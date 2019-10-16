@@ -1,11 +1,9 @@
-# #* wut
+# Dude, #*, wut?
 https://firebase.google.com/docs/hosting/quickstart
 
 ![whoa](./assets/bill-and-teds-father-time.png)
 
-## #* deploy
-
-Learn to deploy an application from a repository with the [Firebase CLI](https://firebase.google.com/docs/cli).
+## How to, #*, with the [Firebase CLI](https://firebase.google.com/docs/cli).
 
 When working with React, it helps to know exactly where your public `index.html` is relative to the `build/`. As long as you allowed rewrites prompted by [`firebase init`](https://firebase.google.com/docs/hosting/quickstart), then the below representation is accurate with regard to the structure of your firebase.json file located at the root of your ioa directory.
 
@@ -147,4 +145,4 @@ $ firebase use ioa
 
 The duplication of `ioa` in the above step is intentional. One represents the binding url and the other represents the app nickname.
 
-#* wut | [...to be continued.](https://wut.app)
+Dude, #*, [wut?](https://wut.app)

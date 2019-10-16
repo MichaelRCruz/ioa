@@ -78,5 +78,5 @@ const state = {
 };
 ```
 
-Some complexity can be removed here, but the context's state redundancies that _will_ remain are minimal and the convenience has been worth it. The largest benefit is the help that it provides in avoiding "prop drilling" which ultimately limits the number of redraws throughout the DOM as further described in other sections. Makes for a cool cpu 😎.
+Some complexity can be removed here, but the context's state redundancies that _will_ remain are minimal and the convenience has been worth it so far. The largest benefit is the help that it provides in avoiding "prop drilling" which ultimately limits the number of redraws throughout the DOM as further described in other sections. Makes for a cool cpu 😎.
 

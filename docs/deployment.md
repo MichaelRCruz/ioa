@@ -101,7 +101,7 @@ $ firebase use ioa
 
 #* wut | Remember `ctrl+c` will abort if needed.
 
-## How to write a firebase.json file for React?
+## How to write a manifest.json file for React?
 
 0. If you've navigated to your manifest.json file in your text editor to verify that it's well-formed, then proceed.
 1. Make sure `public` is set to the same value as the name of your build folder, "build".

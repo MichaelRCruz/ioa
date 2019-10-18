@@ -9,9 +9,7 @@
 | mad                   | [ioa.network](https://ioa.network)     | tbd     |
 | mil                   | [ioa.directory](https://ioa.directory) | tbd     |
 
-A **Satelite Application** (sa) is any application that depends on the set of user configurations provided, created, and maintained by ioa. This implies that both ioa and all of its satelite applications share the same [project ID]().
-
-The above [hanger]() lists a set of satelite applications whereby the naming convention encourages developer awareness of the logistical challenges of any network.
+A **Satelite Application** (sa) is any application that depends on the set of user configurations provided, created, and maintained by ioa. This implies that both ioa and all of its satelite applications share the same [project ID](). The above [hanger]() lists a set of satelite applications whereby the naming convention encourages developer awareness of the logistical challenges of any network.
 
 ## Time | moment.js
 

@@ -12,6 +12,12 @@ This way, all communication outside of the ioa system is done on the user's acco
 
 So far, limited precautions have been made to handle three distinct abstract concepts: state, null, error.
 
+For visualization purposes, please reference this snippet below of a typical [.map()]() technique in ioa.
+
+```javascript
+
+```
+
 ## _state
 
 The most frequently consumed resource is a message which is created via the standard .map() technique in any functional or class component. This is _potentially_ the most brittle part of the app, but also where ioa gets it's strength. Basically, when ioa will [Juice It or Lose It](https://youtu.be/YOETTBL3yZ4).

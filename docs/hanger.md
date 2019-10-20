@@ -1,6 +1,6 @@
 # **ioa | — Production Development Server Hanger**
 
-## Services Hanger | .sh
+## Services Hanger
 
 ### production
 
@@ -26,7 +26,7 @@
 | mad                   | [dev.sh.ioa.network](https://ioa.network) | [web.app]()                                        |
 
 
-## Clients Hanger | .si, .is
+## Clients Hanger
 
 ### production
 

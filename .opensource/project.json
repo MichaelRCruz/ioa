@@ -6,9 +6,11 @@
     "content": "README.md",
     "pages" : {
       "docs/ioa.md": "ioa",
+      "docs/abstract.md": "abstract",
       "docs/overview.md": "overview",
-      "docs/deployment.md": "deployment",
-      "docs/abstract.md": "abstract"
+      "docs/hangers.md": "hangers",
+      "docs/satalites.md": "satalites",
+      "docs/deployment.md": "deployment"
     },
     "related": [
       "FirebaseExtended/reactfire"

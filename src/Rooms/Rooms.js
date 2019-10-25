@@ -13,13 +13,13 @@ class Rooms extends React.Component {
 
   render() {
     const { subscribedRooms, activeRoom } = this.context.state;
-    const rooms = subscribedRooms.map((room, i) => {
-      const { key, name } = room;
-      const isCursor = key === activeRoom.key;
-      return (
-        <option key={name} value={key} selected={isCursor}>{name}</option>
-      );
-    });
+    // const rooms = subscribedRooms.map((room, i) => {
+    //   const { key, name } = room;
+    //   const isCursor = key === activeRoom.key;
+    //   return (
+    //     <option key={name} value={key} selected={isCursor}>{name}</option>
+    //   );
+    // });
     return !subscribedRooms.length
       ? <div className="widgetLoader"></div>
       : (
@@ -30,7 +30,7 @@ class Rooms extends React.Component {
             </legend>
             <select className="roomSelect" value={activeRoom.key}
               onChange={e => this.handleChange(e)}>
-              {rooms}
+              <option key="42069">ioa</option>
             </select>
           </fieldset>
         </form>

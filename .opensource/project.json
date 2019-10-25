@@ -8,25 +8,25 @@
       "docs/ioa.md": "ioa",
       "docs/abstract.md": "abstract",
       "docs/overview.md": "overview",
-      "docs/hangers.md": "hangers",
-      "docs/satalites.md": "satalites",
+      "docs/hanger.md": "hangers",
+      "docs/satelites.md": "satelites",
       "docs/deployment.md": "deployment"
     },
     "related": [
-      "FirebaseExtended/reactfire"
+      "firebase/reactfire"
     ],
     "tabs": [
       {
         "title": "production",
-        "href": "https://ioa.chat"
-      },
-      {
-        "title": "preproduction",
         "href": "https://ioa.is"
       },
       {
-        "title": "testing",
-        "href": "https://gcp.is"
+        "title": "preproduction",
+        "href": "https://ioa.si"
+      },
+      {
+        "title": "chat",
+        "href": "https://ioa.chat"
       },
       {
         "title": "development",

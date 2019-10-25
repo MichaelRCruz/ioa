@@ -13,7 +13,6 @@
 | nyc                   | [sh.ioa.design](https://ioa.design)   | [web.app]()                                        |
 | mad                   | [sh.ioa.network](https://ioa.network) | [web.app]()                                        |
 
-
 ### development
 
 | .sh                   | http                                      | *.web.app                                          |
@@ -24,7 +23,6 @@
 | chi                   | [dev.sh.ioa.systems](https://ioa.systems) | [web.app]()                                        |
 | nyc                   | [dev.sh.ioa.design](https://ioa.design)   | [web.app]()                                        |
 | mad                   | [dev.sh.ioa.network](https://ioa.network) | [web.app]()                                        |
-
 
 ## Clients Hanger
 

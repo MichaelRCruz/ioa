@@ -10,7 +10,20 @@
       "docs/overview.md": "overview",
       "docs/hanger.md": "hangers",
       "docs/satelites.md": "satelites",
-      "docs/deployment.md": "deployment"
+      "docs/deployment.md": "deployment",
+      "docs/preface.md": "preface",
+      "docs/larry-david-1.md": "larry-david-1",
+      "docs/sixty-nined.md": "sixty-nined",
+      "docs/hbo.md": "hbo",
+      "docs/the-aida-story.md": "the-aida-story",
+      "docs/positions.md": "positions",
+      "docs/zelda.md": "zelda",
+      "docs/the-boyfriend-giant.md": "the-boyfriend-giant",
+      "docs/satellite-of-love.md": "satellite-of-love",
+      "docs/aleatoric-intuitionist.md": "aleatoric-intuitionist"
+
+      
+
     },
     "related": [
       "firebase/reactfire"

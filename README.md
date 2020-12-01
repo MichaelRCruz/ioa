@@ -1,8 +1,6 @@
 # **ioa**
 
-👇 click | 3-2-1 [contact](https://youtu.be/KNAshOj1Lzk)
-
-[![321-contact](https://img.youtube.com/vi/KNAshOj1Lzk/0.jpg)](https://youtu.be/KNAshOj1Lzk)
+👇 click | 3-2-1 [contact](https://youtu.be/KNAshOj1Lzk)[![321-contact](https://img.youtube.com/vi/KNAshOj1Lzk/0.jpg)](https://youtu.be/KNAshOj1Lzk)
 
 > "Be excellent to each other." ~ Bill S. Preston, Esquire.
 
